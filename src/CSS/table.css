@@ -1,0 +1,39 @@
+.table {
+  border: 1px solid gray;
+  box-shadow: 5px 5px 5px green;
+  width: 500px;
+  height: 200px;
+  border-radius: 5px;
+  color: green;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.head,
+.body {
+  text-align: center;
+}
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.align {
+  align-self: center;
+}
+
+.center {
+  width: 200px;
+}
+
+.title {
+  color: green;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px;
+}
